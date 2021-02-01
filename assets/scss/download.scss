@@ -1,0 +1,17 @@
+.downloadApp {
+  background: #FAFAFA;
+  .downloadContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    justify-content: flex-start;
+
+    .download {
+      margin-top: 50px;
+    }
+  }
+  .phoneDown {
+    position: absolute;
+    bottom: 0;
+  }
+}

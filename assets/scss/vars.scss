@@ -1,0 +1,177 @@
+/* fonts */
+@font-face {
+  font-family: OSLight;
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+@font-face {
+  font-family: OSRegular;
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: OSSemibold;
+  src: url('../fonts/OpenSans/OpenSans-Semibold.ttf');
+}
+@font-face {
+  font-family: OSBold;
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: OSExtrabold;
+  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: "Muller UltraLight";
+  src: url('../fonts/Muller/Muller-UltraLight.otf');
+}
+@font-face {
+  font-family: "Muller Thin";
+  src: url('../fonts/Muller/Muller-Thin.otf');
+}
+@font-face {
+  font-family: "Muller Light";
+  src: url('../fonts/Muller/Muller-Light.otf');
+}
+@font-face {
+  font-family: "Muller Regular";
+  src: url('../fonts/Muller/Muller-Regular.otf');
+}
+@font-face {
+  font-family: "Muller Medium";
+  src: url('../fonts/Muller/Muller-Medium.otf');
+}
+@font-face {
+  font-family: "Muller Heavy";
+  src: url('../fonts/Muller/Muller-Heavy.otf');
+}
+@font-face {
+  font-family: "Muller Hairline";
+  src: url('../fonts/Muller/Muller-Hairline.otf');
+}
+@font-face {
+  font-family: "Muller Bold";
+  src: url('../fonts/Muller/Muller-Bold.otf');
+}
+@font-face {
+  font-family: "Muller Black";
+  src: url('../fonts/Muller/Muller-Black.otf');
+}
+
+@font-face {
+  font-family: "Roboto Thin";
+  src: url('../fonts/Roboto/Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: "Roboto Light";
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: "Roboto Black";
+  src: url('../fonts/Roboto/Roboto-Black.ttf');
+}
+@font-face {
+  font-family: "Megrim";
+  src: url('../fonts/Megrim.ttf');
+}
+/*vars*/
+$black: #333;
+$blue: #3524AE;
+$pink: #A75DCE;
+$gray: #FAFAFA;
+$white: #fff;
+
+
+$widthAside: 50px;
+
+$veryBigText: 2.8125rem;
+$bigText: 1.4375rem;
+$coverText: 2.2rem;
+$Text: 1rem;
+$backCover: #f7f7f7;
+
+
+/*classes*/
+.grayBackground {
+  background: $gray;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-start {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vertical-end {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img-responsive {
+  width: auto;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Muller Regular";
+  display: flex;
+  flex-direction: column;
+  color: $white;
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.fDRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+
+
+.text {
+  &.black {
+    color: $black;
+  }
+}
+
+.dNone {
+  display: none !important;
+}

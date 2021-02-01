@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/jquery.fullpage.min.css">
+    <script src="assets/js/jquery/jquery.min.js"></script>
+
+</head>
+<body>
+<nav id="menu" class="navbar navbar-expand-lg navbar-dark container">
+    <a class="navbar-brand" href="index.html">CatSkin.</a>
+    <div class="mainMenu collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="listMenu navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" data-menuanchor="top" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-menuanchor="inter" href="#inter">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-menuanchor="contacts" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item circleMenu">
+                <a class="nav-link" href="#slideMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="fullpage">
+    <!--<div style="color: black;" id="id1"class="section">1</div>-->
+    <!--<div style="color: black;" id="id2"class="section">2</div>-->
+    <!--<div style="color: black;" id="id3"class="section">3</div>-->
+    <!--<div style="color: black;" id="id4"class="section">4</div>-->
+    <header class="section">
+        <div class="mainTop">
+            <div class="container flex-center">
+                <div class="row w-100">
+                    <div class="col-6 vertical-start">
+                        <div class="text">
+                            <h1>New app in the World</h1>
+                            <p>Little text under header.
+                                The text takes two or three lines, no more.
+                                It can be placed on four lines, but this is a bad idea, bro.</p>
+                        </div>
+                        <div class="download">
+                            <a href="#"><img src="assets/img/Download%20btn.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-6 vertical-end">
+                        <img src="assets/img/iPhoneX.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="section interactive">
+
+        <div class="full-width flex-center h-100">
+            <div class="row w-100 h-100">
+                <div class="col-6 vertical-center grayBackground">
+                    <div class="text black">
+                        <p>It's enough to download the application and</p>
+                        <p class="purple">You can <select><option value="open your sity"><span>open your sity</span></option><option value="qweqwe"><span>qweqwe</span></option></select></p>
+                        <p>and more</p>
+                    </div>
+                </div>
+                <div id="inPhone" class="col-6 vertical-center interactiveBackground">
+                    <img id="phone" src="assets/img/iPhoneEmpty.png" alt="">
+                    <div id="darkness" class="darkness"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section soSoon">
+        <div class="container flex-center h-100">
+            <div class="row w-100 h-100">
+                <div class="col-12 flex-center">
+                    <div class="text">
+                        <p>Profiles, quests, awards, achievements, chat and more</p>
+                        <p class="big">So soon</p>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section contacts grayBackground">
+        <div class="container flex-center h-100">
+            <div class="row w-100 h-100">
+               <div class="col-12 flex-center formContainer">
+                   <div class="text black">
+                       <h3>Need to contact us or have a problem?</h3>
+                   </div>
+                   <div class="mail"><a href="#" class="text blue">support@catskin.io</a></div>
+                   <!--<div class="contactForm">-->
+                       <!--<form action="">-->
+                           <!--<select name="" id="">-->
+                               <!--<option value="Technical Support">Technical Support</option>-->
+                           <!--</select>-->
+                           <!--<input type="text" placeholder="Name">-->
+                           <!--<input type="text" placeholder="Phone or E-mail">-->
+                           <!--<textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>-->
+                           <!--<button>Send</button>-->
+                       <!--</form>-->
+                   <!--</div>-->
+               </div>
+            </div>
+        </div>
+    </section>
+    <section class="section downloadApp">
+        <div class="container flex-center h-100">
+            <div class="row w-100 h-100">
+                <div class="col-12 flex-center downloadContainer">
+                    <div class="text blue">
+                        <h3>Free download</h3>
+                    </div>
+                    <div class="download"><img src="assets/img/Download%20btn.png" alt=""></div>
+                    <div class="phoneDown">
+                        <img src="assets/img/Free%20iPhone%20X%20PSD%20Mockup.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="footerLogo">
+                        <a class="logo" href="index.html">CATSKIN.</a>
+                        <a class="mail" href="">support@catskin.io</a>
+                    </div>
+                </div>
+                <div class="col-3 footerMenu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                </div>
+                <div class="col-4 footerMenu">
+                    <ul>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 footerSocial">
+                    <ul>
+                        <li><a class="vk" href="#"></a></li>
+                        <li><a class="insta" href="#"></a></li>
+                        <li><a class="twitter" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<aside>
+    <div id="sidebar" class="navigaton section">
+        <div class="rectangle"></div>
+        <div class="circle" data-menuanchor="top"><a href="#top"></a></div>
+        <div class="circle" data-menuanchor="inter"><a href="#inter"></a></div>
+        <div class="circle" data-menuanchor="soon"><a href="#soon"></a></div>
+        <div class="circle" data-menuanchor="contacts"><a href="#contact"></a></div>
+        <div class="circle" data-menuanchor="download"><a href="#download"></a></div>
+        <div class="circle" data-menuanchor="footer"><a href="#footer"></a></div>
+        <div class="rectangle"></div>
+    </div>
+</aside>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/jquery.fullpage.min.js"></script>
+
+</body>
+</html>

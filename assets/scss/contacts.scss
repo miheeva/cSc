@@ -1,0 +1,56 @@
+.contacts {
+  .formContainer {
+    flex-direction: column;
+    .contactForm {
+      form {
+        display: flex;
+        flex-direction: column;
+        * {
+          padding: 20px 25px;
+          margin: 10px 0;
+          font-family: "Muller Medium";
+          min-width: 850px;
+          box-shadow: 0 3px 3px 0px rgba(0,0,0,.2);
+          border: none;
+        }
+        input {
+
+        }
+        select {
+
+        }
+        textarea {
+
+        }
+        button {
+          background: $blue;
+          color: $white;
+          transition: all .3s;
+          &:hover {
+            background: $pink;
+          }
+        }
+      }
+    }
+  }
+
+  .text.black {
+    color: $black;
+    font-family: "Muller Bold";
+    margin: 85px 0 50px 0;
+  }
+  .mail {
+    a {
+      font-size: 3rem;
+      display: block;
+    }
+  }
+}
+.text.blue {
+  color: $blue;
+  font-family: "Muller Bold";
+  margin: 85px 0 50px 0;
+  h3 {
+    font-size: 2.3rem;
+  }
+}

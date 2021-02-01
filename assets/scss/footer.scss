@@ -1,0 +1,52 @@
+footer {
+  background: $black;
+  * {
+  color: $white;
+  }
+  a {
+    opacity: 0.7;
+    transition: all .3s;
+    &:hover {
+      color: $white;
+      opacity: 1;
+    }
+  }
+  ul {
+    list-style: none;
+  }
+  .footerLogo {
+
+    a.logo {
+      font-family: Megrim;
+      font-size: 1.8rem;
+    }
+    a.mail {
+
+    }
+  }
+  .footerSocial {
+    ul {
+      display: flex;
+      flex-direction: row;
+      li {
+        margin: 0 15px;
+        a {
+          display: block;
+          width: 30px;
+          height: 30px;
+          background-size: cover;
+
+          &.vk {
+            background-image: url("../../assets/img/social/vk-social-network-logo.svg");
+          }
+          &.insta {
+            background-image: url("../../assets/img/social/instagram-social-outlined-logo.svg");
+          }
+          &.twitter {
+            background-image: url("../../assets/img/social/twitter-logo-silhouette.svg");
+          }
+        }
+      }
+    }
+  }
+}
